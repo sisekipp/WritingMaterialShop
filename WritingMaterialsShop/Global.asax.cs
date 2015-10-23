@@ -11,6 +11,8 @@ namespace WritingMaterialsShop
     {
         protected void Application_Start()
         {
+           // Register Autofac
+
             var builder = new ContainerBuilder();
 
             // Register your MVC controllers.
