@@ -1,0 +1,9 @@
+diff a/WritingMaterialsShop/Areas/Admin/AdminAreaRegistration.cs b/WritingMaterialsShop/Areas/Admin/AdminAreaRegistration.cs	(rejected hunks)
+@@ -17,7 +17,6 @@
+             context.MapRoute(
+                 "Admin_default",
+                 "Admin/{controller}/{action}/{id}",
+-                new { action = "Index", id = UrlParameter.Optional }
+                 new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+             );
+         }
