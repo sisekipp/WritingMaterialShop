@@ -9,6 +9,6 @@ namespace WritingMaterialsShop.Models.Data
         public string Name { get; set; }
         public string Description { get; set; }
         public List<string> Tags { get; set; }
-
+        public float Price { get; set; }
     }
 }
