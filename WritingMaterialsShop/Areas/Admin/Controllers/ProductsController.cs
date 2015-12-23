@@ -7,7 +7,12 @@ namespace WritingMaterialsShop.Areas.Admin.Controllers
         // GET: Admin/Products
         public ActionResult Index()
         {
-            return View();
+           return View();
+        }
+
+        public ActionResult Search(string query)
+        {
+            return PartialView("Results", null);
         }
     }
 }
