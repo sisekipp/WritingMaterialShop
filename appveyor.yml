@@ -90,10 +90,6 @@ configuration: Release
 build:
   parallel: true                  # enable MSBuild parallel builds
 
-# MSBuild verbosity level
-verbosity: quiet|minimal|normal|detailed
-
-
 # scripts to run before build
 before_build:
     - nuget restore
